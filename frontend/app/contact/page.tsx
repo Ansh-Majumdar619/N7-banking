@@ -40,7 +40,7 @@ export default function ContactPage() {
                 className="text-4xl sm:text-5xl font-bold mb-6"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Let's build the
+                Let&apos;s build the
                 <br />
                 <span className="text-gradient-cyan">future of banking</span>
               </h1>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                   </div>
 
                   <div>
-                    <label className="block text-xs text-n7-text mb-1.5 font-mono">I'm interested in</label>
+                    <label className="block text-xs text-n7-text mb-1.5 font-mono">I&apos;m interested in</label>
                     <select
                       name="requestType"
                       value={form.requestType}
